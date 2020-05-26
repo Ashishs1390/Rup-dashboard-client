@@ -1,0 +1,112 @@
+body{
+}
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+.MainLogo{
+  margin-left: 18px;
+}
+.Navbar {
+  background-color: #000;
+  .NavChild {
+      color: #fff;
+      padding-left: 10px;
+  }
+  .NavItem{
+      display: inline-block;
+      margin-right: 40px;
+  }
+  .NavItems{
+      font-size: 1.2rem;
+      margin: 0 150px;
+  }
+}
+
+.MainFooter{
+  .footerContent{
+      position: relative;
+      margin: 0 180px;
+      padding-top: 50px;
+      &:after{
+          display: block;
+          clear: both;
+          content: '';
+      }
+  }
+  background-color: #000;
+  height: 150px;
+  
+  .Content {
+      float: left;
+      li{
+          font-size: 1.2rem;
+          margin-bottom: 30px;
+      }
+  }
+  .Content-I{
+      margin-right: 30%;
+  }
+  .Content-III{
+      float: right;
+  }
+  .ContactUs-title {
+      font-size: 1.2rem;
+      padding-left: 12px;
+  }
+  .Socials{
+      margin-top: 20px;
+  }
+  .FooterLogo{
+      position: absolute;
+      left: -153px;
+      top: 42px;
+  
+  }
+
+}
+
+
+.swiper-container {
+  height: 20rem;
+  width: 100%;
+
+  @media screen and (max-width: 32rem) {
+    height: 10rem !important;
+  }
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.swiper-slide {
+  max-height: 20rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.buttons-list {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Socials{
+  margin-right: 100px;
+  span{
+      cursor: pointer;
+  }
+}
