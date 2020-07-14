@@ -1,0 +1,16 @@
+.AddedStage,.RemovedStage {
+    padding: 0 20px;
+    li{
+        background-color: #dcdcdc;
+        position: relative;
+        padding: 5px 0px !important;
+        i {
+            position: absolute;
+            right: 3%;
+            top: 10px;
+        }
+        &:first-child{
+          background-color:#A5D6A7!important;  
+        }
+    }
+}

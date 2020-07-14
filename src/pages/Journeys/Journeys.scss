@@ -2,3 +2,18 @@
     background-color: #000;
     color:#fff;
 }
+
+.JourneyWrapper {
+    &::after{
+        clear: both;
+        display: block;
+        content:'';
+    }
+    .ShowJourneys {
+        float: left;
+        margin-right: 30px;
+    }
+    .JourneyBtn {
+        float: right;
+    }
+}

@@ -12,6 +12,9 @@ p {
   font-size: 1.2rem;
   line-height: 1.4rem;
 }
+ul{
+  list-style-type: none;
+}
 .MainLogo{
   margin-left: 18px;
 }
@@ -109,4 +112,8 @@ p {
   span{
       cursor: pointer;
   }
+}
+
+.Wrapper {
+  margin-top: 40px;
 }

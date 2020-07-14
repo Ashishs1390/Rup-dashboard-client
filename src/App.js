@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useContext} from 'react';
 import logo from './logo.svg';
 import './App.scss';
 
@@ -22,7 +22,7 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
-import Journey from './pages/Journeys/Journey.js'
+import ProjectRoutes from './ProjectRoutes/ProjectRoutes.js'
 
 
 
@@ -40,7 +40,10 @@ function App() {
           
           </NavItem>
           <NavItem className="NavItem">
-            <Link className="NavChild" to="/">Home</Link>
+            <Link className="NavChild" to="/Journey">Journeys</Link>
+          </NavItem>
+          <NavItem className="NavItem">
+            <Link className="NavChild" to="/Journey/View">Views</Link>
           </NavItem>
           </Nav>
         </Navbar>
@@ -53,11 +56,7 @@ function App() {
           you have multiple routes, but you want only one
           of them to render at a time
         */}
-        <Switch>
-          <Route exact path="/">
-            <Journey />
-          </Route>
-        </Switch>
+       <ProjectRoutes></ProjectRoutes>
       </div>
     </Router>
     </div>
